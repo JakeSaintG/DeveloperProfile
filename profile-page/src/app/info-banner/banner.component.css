@@ -1,0 +1,14 @@
+.banner {
+	border: 1px red solid;
+	width: 100%;
+}
+
+p {
+    margin-left: 0;
+}
+
+@media (min-width: 1025px) {
+	p {
+		margin-left: 180px;
+	} /* moves the nav and content from column to row  */
+}

@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1025px) {
+	body {
+		flex-direction: row;
+	} /* moves the nav and content from column to row  */
+}
